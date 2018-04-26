@@ -15,16 +15,20 @@ layout: default
 
 <div class="bg--grey-lightest vpad--xxl">
   {% for section in page.page-sections %}
-  <div class="container">
+  <div class="container text--center">
+
     <div class="container container--xl">
-      <div class="text--center">
-        <div class="title title--lg">{{section.title}}</div>
-        {{section.content}}
-      </div>
+      <h2 class="title title--lg">{{section.title}}</h2>
+      {{section.content}}
     </div>
-    <div class="space--xl"></div>
+    <div class="space--lg"></div>
+
+    <span class="title title--xs title--lines text--bold text--upper">{{section.highlights-title}}</span>
+    <div class="space--sm"></div>
     <div class="row row--gutters-lg">
-    {% for highlight in section.highlights %}
+    {% assign highlights = site.data.highlights | where:'section',section.id %}
+    {% for highlight in highlights %}
+
       <a href="javascript:void(0);" data-modal-item="test-modal-1" data-modal-group="section" class="js-open-modal col col--4">
         <div class="bg-img bg-img--16-9" style="background-image:url({{site.img}}/img.jpg);"></div>
         <div class="boxpad--lg bg--white">
@@ -35,6 +39,7 @@ layout: default
       </a>
     {% endfor %}
     </div>
+
   </div>
   {% endfor %}
 </div>

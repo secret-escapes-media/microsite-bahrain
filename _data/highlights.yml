@@ -1,0 +1,317 @@
+
+
+
+#########################################################
+#  WATER
+#  page: water
+#########################################################
+
+# section: wasserspass-wassersport
+- title: Wahoo Water Park
+  id: wahoo-water-park
+  content: >
+    Erleben Sie den ersten klimatisierten Indoor-/Outdoor-Waterpark im Mittleren Osten mit über 15.000 qm Wasserspaß für die ganze Familie im Zentrum von Manama. Mega-Rutschen, ein Rain-Fortress mit Wasserkanonen für die Kleinen und eine Surfanlage mit Wellenpool sind nur einige der Highlights.
+  section: wasserspass-wassersport
+  page: water
+
+- title: Lost Paradise of Dilmun
+  id: lost-paradise-of-dilmun
+  content: >
+    Im Wasserspiel die Vergangenheit von Bahrain erleben? Im Lost Paradise of Dilmun mit über 45.00 qm ist das möglich. Große Rutschen, sanfte Wasserläufe und architektonische Skulpturen versetzen die Besucher in die Zeit von Bahrains Paradieszeit: der Wüstenoase mit Leben spendendem Wasser.
+  section: wasserspass-wassersport
+  page: water
+
+- title: Tauchen, Surfen & Co.
+  id: tauchen-surfen-co
+  content: >
+    Fans von Action im Wasser kommen in Bahrain voll auf ihre Kosten: Die vorgelagerten Inseln, wie z.B. Al Dar Island, bieten perfekte Bedingungen für Jetski, Wakeboarding, Surfing und mehr. Die Unterwasserwelt bietet außerdem herrliche Tauch- und Schnorchelspots mit Korallenriffen und Wracks.
+  section: wasserspass-wassersport
+  page: water
+
+# section: traumstrande-im-inselstaat
+- title: Al Dar Island
+  id: al-dar-island
+  content: >
+    Perfekt für einen Tagetrip ans Meer liegt Al Dar Island nur eine kurze Bootsfahrt von Manama entfernt: Lagunen-Idylle und Wassersport, Spaß für die ganze Familie in der Familyzone, ein BBQ in einer Beach-Hut oder gleich eine Übernachtung im exklusiven Chalet runden das Angebot der Resort-Insel ab.
+  section: traumstrande-im-inselstaat
+  page: water
+
+- title: Hawar Inseln
+  id: hawar-inseln
+  content: >
+    Das autofreie Hawar-Archipel im Süden von Bahrain lockt mit einem reichhaltigen Angebot an Naturerlebnissen. Erleben Sie majestätische Seekühe, verspielte Delphine und elegante Flamingos in ihrem natürlichen Habitat im kristallklaren Wasser des Persischen Golfes.
+  section: traumstrande-im-inselstaat
+  page: water
+
+
+
+#########################################################
+#  CULTURE
+#  page: culture
+#########################################################
+
+# section: magie-der-perlen
+- title: Perlentauchen
+  id: perlentauchen
+  content: >
+    Tauchen oder schnorcheln Sie auf einer geführten Tour selbst zu den Austernbänken Bahrains und öffnen Sie bis zu 60 Austern. Mit etwas Glück finden Sie eine wunderschöne Naturperle – ein einzigartiges Souvenir und ganz persönliches Geschenk.
+  section: magie-der-perlen
+  page: culture
+
+- title: Perlenstraße mit Besucherzentrum der Festung Bu Maher
+  id: perlenstraße-mit-besucherzentrum-der-festung-bu-maher
+  content: >
+    Etwa 3,5 km lang ist die berühmte Perlenstraße, auf der Sie in die Welt der Perlen eintauchen können: Besichtigen Sie das moderne Besucherzentrum im einstigen Handelshafen Fort Bu Maher sowie die zu Museen umgewandelten Anwesen großer Perlenhändler-Dynastien.
+  section: magie-der-perlen
+  page: culture
+
+# section: kulturelle-entdeckungen
+- title: Bahrain Fort
+  id: bahrain-fort
+  content: >
+    Erkunden Sie die jahrtausendealten Überreste Dilmuns und folgen Sie in der zum UNESCO-Weltkulturerbe ernannten Festung Bahrain den Spuren der Geschichte: eindrucksvolle Ruinen und geheimnisvolle Hügelgräber erzählen von längst vergangenen Zeiten.
+  section: kulturelle-entdeckungen
+  page: culture
+
+- title: Festung Scheich Salman Bin Ahmed Al-Fateh
+  id: festung-scheich-salman-bin-ahmed-al-fateh
+  content: >
+    Auf einem Plateau über dem Hunanaiya-Tal ruht die Festung Scheich Salman Bin Ahmed Al-Fateh. Lernen Sie die Geschichte der Herrscherfamilie Al Khalifa kennen und genießen Sie den Panoramablick vom Festungscafé.
+  section: kulturelle-entdeckungen
+  page: culture
+
+- title: Scheich Isa bin Ali Haus
+  id: scheich-isa-bin-ali-haus
+  content: >
+    In Muharraq befindet sich eines der beeindruckendsten Beispiele islamischer Baukunst: das Scheich Isa bin Ali Haus. Neben wunderschöner Architektur bietet es tiefe Einblicke in Bahrains reiches kulturelles und historisches Erbe.
+  section: kulturelle-entdeckungen
+  page: culture
+
+- title: Al Fateh Moschee und Al Fateh Islamic Centre (Manama)
+  id: al-fateh-moschee-und-al-fateh-islamic-centre-manama
+  content: >
+    Die Al Fateh-Moschee gehört nicht nur zu den größten Moscheen der Welt. Sie ist auch die einzige Moschee Bahrains, die zu den Besuchszeiten allen Glaubensrichtungen offensteht. Bewundern Sie die imposante Glaskuppel und edles Interieur und besuchen Sie die Nationalbibliothek.
+  section: kulturelle-entdeckungen
+  page: culture
+
+- title: Haus des Koran
+  id: haus-des-koran
+  content: >
+    Bereits von außen weiß das mit arabischen Schriften verzierte Haus des Koran Besucher zu beeindrucken. Im Inneren erwarten Sie bedeutende Schriften und Manuskripte des Korans, die bis ins 7. Jahrhundert zurückreichen sowie Kuriositäten wie beschriebene Reiskörner.
+  section: kulturelle-entdeckungen
+  page: culture
+
+- title: Nationalmuseum Bahrain
+  id: nationalmuseum-bahrain
+  content: >
+    Als eines der ersten Museen der Golfregion beherbergt das Nationalmuseum Bahrain eine riesige Sammlung archäologischer Fundstücke und wertvoller Kunstwerke. Außerdem lernen Sie hier lokale Bräuche und Traditionen kennen.
+  section: kulturelle-entdeckungen
+  page: culture
+
+- title: Al Riwaq Art Space
+  id: al-riwaq-art-space
+  content: >
+    Ganz der Förderung zeitgenössischer Kunst und junger Talente sowie dem internationalen kulturellen Austausch verschrieben hat sich der Al Riwaq Art Space. Verschiedene Ausstellungen und Veranstaltungen geben Formen, Farben und neuen Ideen Raum.
+  section: kulturelle-entdeckungen
+  page: culture
+
+- title: Nationaltheater Bahrain
+  id: nationaltheater-bahrain
+  content: >
+    Genau 1001 Personen finden im Nationaltheater Bahrain Platz – eine Hommage an die Märchen aus Tausendundeiner Nacht. Stars und Künstler aus der ganzen Welt besetzen hier erstklassige Theater- Ballett- und Opernaufführungen.
+  section: kulturelle-entdeckungen
+  page: culture
+
+
+
+#########################################################
+#  SHOPPING
+#  page: shopping
+#########################################################
+
+# section: traditionelle-souks
+- title: Manama Souq
+  id: manama-souq
+  content: >
+    Ein Labyrinth enger Gassen erwartet Sie auf dem Manama Souq, dem altem Bazar der Stadt. Verlieren Sie sich an den zahlreichrein Händlerständen, besonders bei Nacht. Von Schmuck über regionale Handwerkskunst bis zu Antiquitäten finden Sie hier das perfekte Souvenir
+  section: traditionelle-souks
+  page: shopping
+
+- title: Al Qaisariya Bazar
+  id: al-qaisariya-bazar
+  content: >
+    Trubeliges Bazarleben erwartet Sie ebenso auf der Insel Muharraq, besonders im ältestens Teil des Muharraq-Souq. In authentischem Ambiente kann hier die Faszination traditionellen Handelns und Feilschens erlebt werden.
+  section: traditionelle-souks
+  page: shopping
+
+# section: moderne-shoppingmalls
+- title: The Avenues
+  id: the-avenues
+  content: >
+    Direkt am Meer gelegen, macht das 2017 eröffnete The Avenues Bahrain Shopping zu einem ganz besonderen Erlebnis: mit modernem Design, luxuriösen Marken sowie Cafés und Restaurants mit Blick auf die Bahrain Bay.
+  section: moderne-shoppingmalls
+  page: shopping
+
+- title: Bahrain City Center
+  id: bahrain-city-center
+  content: >
+    Im Herzen Manamas vereint das Bahrain City Centre über 350 Marken-Shops, einen Wasserpark für die ganze Familie, ein Kino und einen großen Food Court unter einem Dach.
+  section: moderne-shoppingmalls
+  page: shopping
+
+- title: Dragon City Mall
+  id: dragon-city-mall
+  content: >
+    Chinesische Architektur und ein thematisches Dining Village können Sie in der 115.000 qm großen Dragon City Mall erleben. Verpassen Sie auch nicht die regelmäßigen Familien-Events.
+  section: moderne-shoppingmalls
+  page: shopping
+
+# section: landestypische-küche
+
+- title: Qoozi
+  id: qoozi
+  content: >
+    Probieren Sie dieses traditionelle Gericht der arabischen Küche und lassen Sie sich gegrilltes Lamm auf mit allerlei Gewürzen, Ei, braunen Zwiebeln und Nüssen gemischtem Reis auf der Zunge zergehen.
+  section: landestypische-küche
+  page: shopping
+
+- title: Machboos
+  id: machboos
+  content: >
+    Koriander, Minze und Chili sind nur einige der Gewürze, die Machboos seine charakteristischen Geschmack verleihen. Serviert wird dieses Gericht mit Fisch, Huhn oder Fleisch sowie Reis.
+  section: landestypische-küche
+  page: shopping
+
+- title: Muhammar
+  id: muhammar
+  content: >
+    Diesem süßen Reisgericht aus Bahrain werden Sie nicht widerstehen können: Muhammar wird mit einer cremigen Soße aus Datteln abgerundet und gegrilltem oder paniertem Fisch serviert.
+  section: landestypische-küche
+  page: shopping
+
+- title: Gahwa
+  id: gahwa
+  content: >
+    Kaffeeliebhaber sollten sich Gahwa, den arabischen Kaffee, nicht entgehen lassen. Diese aromatische Spezialität wird mit Kardamon und Safran verfeinert.
+  section: landestypische-küche
+  page: shopping
+
+- title: Halwa
+  id: halwa
+  content: >
+    Zu einem starken Gahwa passt das süße Halwa: ein köstliches Dessert aus Maisstärke, Öl, Pistazien und Gewürzen wie Kardamon, Safran und Muskat.
+  section: landestypische-küche
+  page: shopping
+
+- title: Falafel
+  id: falafel
+  content: >
+    Wir alle kennen die in heißem Fett gebackenen Kugeln aus Kichererbsenmehl, doch hier werden Ihnen die frisch zubereiteten Falafel besonders gut schmecken.
+  section: landestypische-küche
+  page: shopping
+
+- title: Khubz
+  id: khubz
+  content: >
+    Lassen Sie sich zu einem würzigen Curry oder einer der zahlreichen Gemüsespeisen das typisch-arabische Fladenbrot Khubz servieren.
+  section: landestypische-küche
+  page: shopping
+
+- title: Safi
+  id: safi
+  content: >
+    Typischerweise wird Safi aus dem Filet des heimischen Kaninchenfisches zubereitet und in einer Zitronen-Marinade aus Safranreis serviert. Unvergleichlich!
+  section: landestypische-küche
+  page: shopping
+
+# section: junge-gastroszene
+
+- title: Hazel Rooftop Bar & Lounge
+  id: hazel-rooftop-bar-lounge
+  content: >
+    Von der neueröffneten Rooftop-Bar eröffnet sich ein spektakulärer Blick über die Dächer von Manama. In entspanntem Ambiente werden hier aufregende Signature-Cocktails zu Live-Musik von regionalen Bands serviert.
+  section: junge-gastroszene
+  page: shopping
+
+- title: Attic
+  id: attic
+  content: >
+    Griechische Küche, geschickt inszenierter Retro-Charme und ein großartiger Blick über Manama von der Terrasse, all das finden sie im Restaurant Attic im hippen Stadtteil Adliya.
+  section: junge-gastroszene
+  page: shopping
+
+- title: Calexico
+  id: calexico
+  content: >
+    Calexico ist ein Schmelztiegel der Kulturen, Sprachen und Aromen aus Kalifornien und Mexiko. Nach diesem Konzept kommen hier modernes Streetfood wie Tacos und Burritos und erfrischende Cocktails auf den Tisch.
+  section: junge-gastroszene
+  page: shopping
+
+- title: Meat & Co
+  id: meat-co
+  content: >
+    Für perfekt gereifte T-Bone- und Rib-Eye-Steaks vom Angus-Rind empfehlen wir das Meat & co im aufstrebenden Stadtteil Block 338. Nach dem Essen lockt die Zigarren-Lounge und die Dachterrasse mit Blick auf die Skyline.
+  section: junge-gastroszene
+  page: shopping
+
+- title: Florence
+  id: florence
+  content: >
+    Im Florence genießen Sie authentische mediterrane Spezialitäten inmitten von rustikalem Interieur und pastellfarbenem Dekor, perfekt für einen entspannten Lunch oder ein legeres Dinner.
+  section: junge-gastroszene
+  page: shopping
+
+- title: Orangerie
+  id: orangerie
+  content: >
+    Wie in einem Englischen Garten fühlt man sich in der Orangerie, einer Hommage an die Europäische Tee-Tradition zwischn dem 17. und 19. Jahrhunderts. Gönnen Sie sich eine süße Kreation der hauseigenen Patisserie.
+  section: junge-gastroszene
+  page: shopping
+
+- title: Cantina Khalo & Khalo Club im Ritz Carlton
+  id: cantina-khalo-khalo-club-im-ritz-carlton
+  content: >
+    Lehnen Sie sich zurück: Die Cantino Carlo versorgt Sie mit kreativer mexikanischer Küche, spritzigen Cocktails in von Frida Kahlos Kunstwerken inspiriertem Ambiente.
+  section: junge-gastroszene
+  page: shopping
+
+
+
+#########################################################
+#  FESTIVALS
+#  page: festivals
+#########################################################
+
+# section: formel-1-bahrain-international-circuit
+
+# section: kulturfestivals
+
+- title: Bahrain Summer
+  id: bahrain-summer
+  content: >
+    Ein Sommerspektakel für die ganze Familie ist das jährliche Bahrain Summer Festival im Juli und August. Erleben Sie musikalische Talente aus der Region und der ganzen Welt, verlieren Sie sich in traumhaften Theaterwelten und erweitern Sie Ihren Horizont in spannenden Workshops für alle Altersstufen.
+  section: kulturfestivals
+  page: festivals
+
+- title: Bahrain Sea Festival
+  id: bahrain-sea-festival
+  content: >
+    Erleben Sie traditionelle Schiffsbaukunst der Dhau, faszinierende Einblicke in die Perlenfischerei und eine grandiose Schiffsparade in der Bucht von Bahrain. Während des Bahrain Sea Festivals steht alles im Zeichen des Lebens von und mit dem Meer.
+  section: kulturfestivals
+  page: festivals
+
+- title: Bahrain Jazz Festival
+  id: bahrain-jazz-festival
+  content: >
+    Mit einem Open-Air-Abschlussfestival mit Streetfood und Künstlermarkt wird das 2. Royal Jazz Fest Bahrain im Herbst 2018 spektakulär zu Ende gehen. Internationale und lokale Musiker zeigen zuvor einen Monat lang ihr Können von Jazz über Swing bis zu Ska und Electro.
+  section: kulturfestivals
+  page: festivals
+
+- title: Bahrain Light Festival
+  id: bahrain-light-festival
+  content: >
+    Das Open-Air-Festival findet im November 2018 statt. Spektakuläre Lichtinstallationen internationaler Künster auf höchstem künstlerischen und technischem Niveau werden sich auf der Wasseroberfläche der Bahrain Bay spiegeln und die Besucher verzaubern. 
+  section: kulturfestivals
+  page: festivals
+
+

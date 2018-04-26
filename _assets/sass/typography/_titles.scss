@@ -27,6 +27,28 @@
     &--xxxs   { font-size: $s1; }
   }
 
+  &--lines {
+    display: inline-block;
+    position: relative;
+    &:before,
+    &:after {
+      content: "";
+      width: 100px;
+      height: 4px;
+      margin: 0 1em;
+      position: absolute;
+      top: 50%;
+      margin-top: -2px;
+      border-top: 1px solid rgba($grey-darkest,0.2);
+      border-bottom: 1px solid rgba($grey-darkest,0.2);
+      .text--white & {
+        border-color: rgba($white,0.2);
+      }
+    }
+    &:before { right: 100%; }
+    &:after { left: 100%; }
+  }
+
 }
 
 .sub-title {
@@ -89,17 +111,13 @@
   font-family: $font-title-01;
   font-weight: 200;
   line-height: 1.2;
-  text-transform: uppercase;
   @include font-smoothing;
 
   font-size: $s5;
-  letter-spacing: .5rem;
   @include bp($md){
-    letter-spacing: 1rem;
     font-size: $s7;
   }
   @include bp($xl){
-    letter-spacing: 2rem;
     font-size: $s10;
   }
 

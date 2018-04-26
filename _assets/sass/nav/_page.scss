@@ -1,32 +1,35 @@
 // styles for the microsite nav
 
-$site-nav-height:    56px;
-$site-nav-height-sm: 44px;
-$nav-width-bp:       1100px;
-$nav-color:          $grey-darkest;
+$page-nav-height:    56px;
+$page-nav-height-sm: 44px;
+$nav-width-bp:       600px;
+$nav-color:          $white;
+$nav-border-color:   $grey-lightest;
+$nav-text-color:     $grey-darker;
 
 
 // global site nav height
-@mixin site-nav-height {
-  height: $site-nav-height-sm;
-  min-height: $site-nav-height-sm;
+@mixin page-nav-height {
+  height: $page-nav-height-sm;
+  min-height: $page-nav-height-sm;
   @include bp($md){
-    height: $site-nav-height;
-    min-height: $site-nav-height;
+    height: $page-nav-height;
+    min-height: $page-nav-height;
   }
 }
 
-.site-nav {
-  position: relative;
+.page-nav {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
   background-color: rgba($nav-color,.8);
   text-align: center;
 
-  // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
-  &__offset:before {
-    // corrects header overlapping content
-    content: '';
+  &__container {
+    border-top: 1px solid $nav-border-color;
+    position: relative;
     display: block;
-    @include site-nav-height;
+    @include page-nav-height;
   }
 
 
@@ -38,15 +41,15 @@ $nav-color:          $grey-darkest;
     right: 0;
     bottom: 0;
     z-index: $z-nav-upper;
-    width: $site-nav-height-sm;
+    width: $page-nav-height-sm;
     background-image: url("../img/icons/nav-arrow.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: $site-nav-height-sm auto;
-    @include site-nav-height;
+    background-size: $page-nav-height-sm auto;
+    @include page-nav-height;
     @include bp($md){
-      width: $site-nav-height;
-      background-size: $site-nav-height auto;
+      width: $page-nav-height;
+      background-size: $page-nav-height auto;
     }
     // remove arrow icon when no overflow
     @include bp($nav-width-bp){ display: none; }
@@ -64,19 +67,19 @@ $nav-color:          $grey-darkest;
     max-width: $xxxl;
     margin-left: auto;
     margin-right: auto;
-    @include site-nav-height;
+    @include page-nav-height;
     &:after {
       // additional spacing for end of list so content can scroll past the overlaid arrow icon
       content: '';
-      min-width: $site-nav-height-sm;
-      @include bp($md){ min-width: $site-nav-height; }
+      min-width: $page-nav-height-sm;
+      @include bp($md){ min-width: $page-nav-height; }
       @include bp($nav-width-bp){ display: none; }
     }
   }
   &__item {
     display: flex;
     flex: 1 0 auto;
-    border-right: 1px solid rgba($white,.15);
+    border-right: 1px solid $nav-border-color;
     &:last-child { border-right: 0; }
   }
   &__link {
@@ -91,7 +94,7 @@ $nav-color:          $grey-darkest;
     font-size: 11px;
     letter-spacing: .25em;
     text-transform: uppercase;
-    color: $white;
+    color: $nav-text-color;
     transition: background-color $transition-time ease;
     white-space: nowrap;
     &.is-current      { background-color: rgba($nav-color,.66); }

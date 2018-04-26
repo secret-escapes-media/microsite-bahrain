@@ -4,11 +4,14 @@ id: overview
 title: Übersicht
 nav: true
 nav-order: 1
-intro: Introduction to destination. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+intro: >
+  <p class="text--lg">Der weltoffene Inselstaat im Persischen Golf mit seiner 4.000 Jahre alten Geschichte schlummert völlig zu Unrecht im Schatten der großen arabischen Metropolen. Zwischen Souqs und Skyline lockt das Land der Perlenfischer zu Familienspaß und Nightlife, warten unberührte Traumstrände und ein  einzigartiges Aktivitätsangebot von Motorsport bis Kunstgenuss.</p>
+
 ---
 
 <div class="container container--xl text--center text--lg space--xxxxl">
-  <p>{{page.intro}}</p>
+  {{page.intro}}
 </div>
 
 <div class="container">
@@ -19,7 +22,9 @@ intro: Introduction to destination. Lorem ipsum dolor sit amet, consectetur adip
         <div class="bg-img bg-img--4-3 bg-img--md-16-9 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/img.jpg');">
           <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
           <div class="bg-img__content">
-            <div class="title title--lg">{{page.title}}</div>
+            <h3 class="title title--lg">{{page.title}}</h3>
+            <div class="space--sm"></div>
+            <span class="btn btn--sm btn--outline btn--outline-white">{{page.parent.button}}</span>
           </div>
           <div class="bg-img__bg-overlay"></div>
         </div>

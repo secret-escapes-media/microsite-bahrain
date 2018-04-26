@@ -40,4 +40,18 @@
       &:before { border-color: $orange; }
     }
   }
+  &--outline-white {
+    &:before { border-color: $white; }
+    &:hover {
+      background-color: $white;
+      &:before { border-color: $white; }
+    }
+  }
+
+
+
+  &--solid { background-color: $b-purple;
+    &:hover { background-color: darken($b-purple,10); }
+  }
+
 }

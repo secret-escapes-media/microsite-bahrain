@@ -2,38 +2,41 @@
 layout: default
 ---
 
-<div class="container container--xl text--center text--lg space--xxxxl">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore illum saepe velit assumenda praesentium quo dolores dolorem maiores ducimus, aperiam laborum, eveniet nostrum quia? Deleniti nobis, quasi adipisci cumque quia ullam voluptatibus consectetur mollitia neque ea eius, accusamus dignissimos debitis maxime dolore culpa facilis reprehenderit totam fugiat necessitatibus? Velit, dolorem.</p>
+
+<div class="bg--white">
+  <div class="container container--xl text--center vpad--xxl">
+    {{page.intro}}
+  </div>
+  {% if page.page-nav %}
+    {% include nav/page.html %}
+  {% endif %}
 </div>
 
-<div class="container">
-  <div class="bob">
-    <div class="bob__img">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
+
+<div class="bg--grey-lightest vpad--xxl">
+  {% for section in page.page-sections %}
+  <div class="container">
+    <div class="container container--xl">
+      <div class="text--center">
+        <div class="title title--lg">{{section.title}}</div>
+        {{section.content}}
+      </div>
     </div>
-    <div class="bob__text">
-      <div class="title title--md">Lorem ipsum dolor sit amet, consectetur.</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quam minus facere, sunt sed quaerat voluptatum fuga natus amet tempora, nesciunt dolorem fugit ipsam suscipit voluptate cupiditate obcaecati asperiores ipsum, animi dolores soluta recusandae fugiat veritatis! Adipisci numquam, corrupti temporibus!</p>
-    </div>
-  </div>
-  <div class="bob bob--swap">
-    <div class="bob__img">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-    </div>
-    <div class="bob__text">
-      <div class="title title--md">Nobis maxime sequi qui voluptas dolorum!</div>
-      <p>Quia, debitis, itaque. Quas, voluptates, dolore. Placeat sint culpa, delectus quidem. Earum excepturi repellat adipisci fugiat animi quibusdam iure ea rem asperiores odio aliquid vero expedita inventore accusamus dolor exercitationem, non magni eveniet! Velit possimus culpa perferendis beatae facere praesentium.</p>
-    </div>
-  </div>
-  <div class="bob">
-    <div class="bob__img">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-    </div>
-    <div class="bob__text">
-      <div class="title title--md">Beatae officiis facilis doloremque animi illum.</div>
-      <p>Nesciunt consectetur maxime possimus accusamus est, eius earum deserunt omnis modi distinctio? Facere dolorum, deserunt quidem tempore dolore ad, labore qui praesentium et nihil, neque quasi! Voluptatum magnam sapiente earum aut officiis, atque iusto, totam. Necessitatibus iste eius obcaecati perspiciatis.</p>
+    <div class="space--xl"></div>
+    <div class="row row--gutters-lg">
+    {% for highlight in section.highlights %}
+      <a href="javascript:void(0);" data-modal-item="test-modal-1" data-modal-group="section" class="js-open-modal col col--4">
+        <div class="bg-img bg-img--16-9" style="background-image:url({{site.img}}/img.jpg);"></div>
+        <div class="boxpad--lg bg--white">
+          <h4 class="title title--xxxs text--bold text--upper">{{highlight.title}}</h4>
+          <div class="space--xs"></div>
+          {{highlight.content|truncatewords:6}}
+        </div>
+      </a>
+    {% endfor %}
     </div>
   </div>
+  {% endfor %}
 </div>
 
-<div class="space--xxxxl"></div>
+

@@ -34,18 +34,9 @@
     right: 0;
     bottom: 0;
     z-index: $z-content;
-    background-color: $grey-dark;
+    background-color: $grey-darkest;
     @include background-attributes;
-    // &:before {
-    //   // optional colour overlay on bg image
-    //   content: '';
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   right: 0;
-    //   bottom: 0;
-    //   background-color: rgba($black,.15);
-    // }
+    background-attachment: fixed;
   }
   &__nav {
     // optional container for navigation include
@@ -58,5 +49,13 @@
       top: 0;
       bottom: auto;
     }
+  }
+  &__overlay {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: $z-content;
+    background-color: rgba($b-dark-blue,0.7);
+    opacity: 0;
   }
 }

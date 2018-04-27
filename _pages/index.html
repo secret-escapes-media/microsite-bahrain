@@ -10,27 +10,42 @@ intro: >
 
 ---
 
-<div class="container container--xl text--center text--lg space--xxxxl">
+<div class="container container--xl text--center text--lg space--xxxl">
   {{page.intro}}
 </div>
 
 <div class="container">
-  <div class="row row--xxl-6-6">
+  <div class="row row--xxl-6-6 row--no-gutters">
     {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
     {% for page in content-pages %}
       <div class="col">
-        <div class="bg-img bg-img--4-3 bg-img--md-16-9 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/img.jpg');">
+        <div class="tile bg-img bg-img--4-3 bg-img--md-16-9 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/banner/{{page.id}}.jpg');">
           <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
-          <div class="bg-img__content">
+
+          <div class="tile__content">
             <h3 class="title title--lg">{{page.title}}</h3>
-            <div class="space--sm"></div>
-            <span class="btn btn--sm btn--outline btn--outline-white">{{page.parent.button}}</span>
           </div>
-          <div class="bg-img__bg-overlay"></div>
+          <div class="tile__footer">
+            <span class="title text--bolder text--wide-kern text--upper">{{page.parent.button}}</span>
+          </div>
+
+          <div class="tile__overlay"></div>
         </div>
       </div>
     {% endfor %}
   </div>
 </div>
 
-<div class="space--xxxxl"></div>
+<div class="space--xxxl"></div>
+
+<div class="bg--grey-lightest">
+  <div class="container vpad--xxl">
+    <div class="text--center">
+      <h3 class="title title--md title--lines text--bold">Angebote</h3>
+    </div>
+    {% include offer/all-offers.html %}
+    <div class="text--center">
+      <a href="{{site.baseurl}}/offers" class="btn btn--lg btn--orange">View all offers</a>
+    </div>
+  </div>
+</div>

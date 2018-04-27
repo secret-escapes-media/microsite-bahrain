@@ -1,1 +1,90 @@
 // general styles for the project that wouldn't be a reuseable component
+
+
+.tile {
+  @include transition();
+  overflow: hidden;
+  box-shadow: 0 0 0 rgba($grey-darkest,0);
+  &:hover {
+    box-shadow: 0 0 60px rgba($grey-darkest,0.25);
+  }
+  &__content {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: $z-content-upper;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $white;
+    text-align: center;
+    @include page-padding;
+  }
+  &__footer {
+    $footer-height: 80px;
+    @include transition();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: $z-content-upper;
+    left: 0;
+    bottom: -$footer-height;
+    height: $footer-height;
+    width: 100%;
+    background-color: white;
+    border-top: 5px solid $b-blue;
+    text-align: center;
+    @include page-padding;
+  }
+  &:hover &__footer {
+    bottom: 0;
+  }
+  &__overlay {
+    @include transition();
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: $z-content;
+    background-color: rgba($b-dark-blue,.4);
+  }
+  &:hover &__overlay { background-color: rgba($b-dark-blue,.7); }
+}
+
+
+.highlight {
+  position: relative;
+  &__image {
+    position: relative;
+  }
+  &__text {}
+  &__icon {
+    @include transition();
+    $icon-size: 40px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: $icon-size;
+    height: $icon-size;
+    margin-top: -$icon-size/2;
+    margin-left: -$icon-size/2;
+    border-radius: 50%;
+    background-color: $white;
+    background-image: url('../img/icons/plus-dark.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  &:hover &__icon {
+    top: 50%;
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+
+
+

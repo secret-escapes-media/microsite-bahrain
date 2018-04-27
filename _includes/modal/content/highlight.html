@@ -1,0 +1,11 @@
+<!-- Highlight modal -->
+<div class="container container--xl container--no-padding modal__content modal-highlight">
+  <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/highlights/{{item.id}}.jpg);"></div>
+  <div class="boxpad--xl bg--white">
+
+    {% if item.title %}<span class="title title--sm text--bold">{{item.title}}</span>{% endif %}
+    <div class="space--sm"></div>
+    <p class="text--lg">{{item.content}}</p>
+
+  </div>
+</div>

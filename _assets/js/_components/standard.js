@@ -44,7 +44,7 @@ $('.js-toggle-mobile-nav').on('click', function(e) {
 
 
 ///////////////////////////////////////
-//   query string searcher
+//   Query string searcher
 ///////////////////////////////////////
 
 function queryString(sParam){
@@ -57,3 +57,25 @@ function queryString(sParam){
     }
   }
 }
+
+
+///////////////////////////////////////
+//   Banner fade
+///////////////////////////////////////
+
+function bannerfade(){
+	var st = $(document).scrollTop();
+	var wh = $(window).height();
+  if(st<wh){
+  	$('.banner__overlay').css({
+  		"opacity": ((wh - (st*2)) / -wh)+1
+  	});
+  }
+}
+
+$(document).scroll(function() {
+	bannerfade();
+});
+
+
+

@@ -9,10 +9,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/bahrain" # the subpath of your site, e.g. /blog/
-img:     "/bahrain/_assets/img"
-css:     "/bahrain/_assets/css"
-js:      "/bahrain/_assets/js"
+baseurl: "/de/bahrain" # the subpath of your site, e.g. /blog/
+img:     "/de/bahrain/_assets/img"
+css:     "/de/bahrain/_assets/css"
+js:      "/de/bahrain/_assets/js"
 
 
 # Build settings

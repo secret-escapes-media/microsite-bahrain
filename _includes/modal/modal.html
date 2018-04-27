@@ -1,5 +1,5 @@
 
-{% assign modal-items = site.data.modal.text | concat: site.data.modal.videos %}
+{% assign modal-items = site.data.highlights %}
 
 <div class="js-modal modal is-closed">
   <div class="js-close-modal modal__close"></div>
@@ -20,7 +20,9 @@
               {% if item.page %}data-group-page="{{item.page}}"{% endif %}
               {% if item.section %}data-group-section="{{item.section}}"{% endif %}>
               <div class="modal__content">
-                {% if item.youtube-id %}
+                {% if item.highlight %}
+                  {% include modal/content/highlight.html %}
+                {% elsif item.youtube-id %}
                   {% include modal/content/video.html %}
                 {% else %}
                   {% include modal/content/text.html %}

@@ -24,19 +24,24 @@ layout: default
     <div class="space--lg"></div>
 
     <span class="title title--xs title--lines text--bold text--upper">{{section.highlights-title}}</span>
-    <div class="space--sm"></div>
+    <div class="space--lg"></div>
     <div class="row row--gutters-lg">
     {% assign highlights = site.data.highlights | where:'section',section.id %}
     {% for highlight in highlights %}
+      <div class="col col--4">
 
-      <a href="javascript:void(0);" data-modal-item="test-modal-1" data-modal-group="section" class="js-open-modal col col--4">
-        <div class="bg-img bg-img--16-9" style="background-image:url({{site.img}}/img.jpg);"></div>
-        <div class="boxpad--lg bg--white">
-          <h4 class="title title--xxxs text--bold text--upper">{{highlight.title}}</h4>
-          <div class="space--xs"></div>
-          {{highlight.content|truncatewords:6}}
-        </div>
-      </a>
+        <a href="javascript:void(0);" data-modal-item="{{highlight.id}}" data-modal-group="section" class="js-open-modal highlight">
+          <div class="highlight__image bg-img bg-img--16-9" style="background-image:url({{site.img}}/content/{{page.id}}/highlights/{{highlight.id}}.jpg);">
+            <div class="highlight__icon"></div>
+          </div>
+          <div class="highlight__text boxpad--lg bg--white">
+            <h4 class="title title--xxxs text--bold text--upper">{{highlight.title}}</h4>
+            <div class="space--xs"></div>
+            {{highlight.content|truncate:60}}
+          </div>
+        </a>
+
+      </div>
     {% endfor %}
     </div>
 

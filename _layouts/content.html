@@ -13,40 +13,45 @@ layout: default
 </div>
 
 
-<div class="bg--grey-lightest vpad--xxl">
-  {% for section in page.page-sections %}
+<div class="bg--grey-lightest">
   <div class="container text--center">
 
-    <div class="container container--xl">
-      <h2 class="title title--lg">{{section.title}}</h2>
-      {{section.content}}
-    </div>
-    <div class="space--lg"></div>
+    {% for section in page.page-sections %}
+      <div class="wp" id="{{section.id}}"></div>
+      <div class="space--xxxxl"></div>
 
-    <span class="title title--xs title--lines text--bold text--upper">{{section.highlights-title}}</span>
-    <div class="space--lg"></div>
-    <div class="row row--gutters-lg">
-    {% assign highlights = site.data.highlights | where:'section',section.id %}
-    {% for highlight in highlights %}
-      <div class="col col--4">
-
-        <a href="javascript:void(0);" data-modal-item="{{highlight.id}}" data-modal-group="section" class="js-open-modal highlight">
-          <div class="highlight__image bg-img bg-img--16-9" style="background-image:url({{site.img}}/content/{{page.id}}/highlights/{{highlight.id}}.jpg);">
-            <div class="highlight__icon"></div>
-          </div>
-          <div class="highlight__text boxpad--lg bg--white">
-            <h4 class="title title--xxxs text--bold text--upper">{{highlight.title}}</h4>
-            <div class="space--xs"></div>
-            {{highlight.content|truncate:60}}
-          </div>
-        </a>
-
+      <div class="container container--xl">
+        <h2 class="title title--lg">{{section.title}}</h2>
+        {{section.content}}
       </div>
+      <div class="space--lg"></div>
+
+      <span class="title title--xs title--lines text--bold text--upper">{{section.highlights-title}}</span>
+      <div class="space--lg"></div>
+      <div class="row row--gutters-lg">
+      {% assign highlights = site.data.highlights | where:'section',section.id %}
+      {% for highlight in highlights %}
+        <div class="col col--4">
+
+          <a href="javascript:void(0);" data-modal-item="{{highlight.id}}" data-modal-group="section" class="js-open-modal highlight">
+            <div class="highlight__image bg-img bg-img--16-9" style="background-image:url({{site.img}}/content/{{page.id}}/highlights/{{highlight.id}}.jpg);">
+              <div class="highlight__icon"></div>
+            </div>
+            <div class="highlight__text boxpad--lg bg--white">
+              <h4 class="title title--xxxs text--bold text--upper">{{highlight.title}}</h4>
+              <div class="space--xs"></div>
+              {{highlight.content|truncate:60}}
+            </div>
+          </a>
+
+        </div>
+      {% endfor %}
+      </div>
+
     {% endfor %}
-    </div>
 
   </div>
-  {% endfor %}
+  <div class="space--xxxxl"></div>
 </div>
 
 

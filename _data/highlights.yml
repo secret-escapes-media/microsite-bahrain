@@ -19,7 +19,7 @@
   id: lost-paradise-of-dilmun
   highlight: true
   content: >
-    Im Wasserspiel die Vergangenheit von Bahrain erleben? Im Lost Paradise of Dilmun mit über 45.00 qm ist das möglich. Große Rutschen, sanfte Wasserläufe und architektonische Skulpturen versetzen die Besucher in die Zeit von Bahrains Paradieszeit: der Wüstenoase mit Leben spendendem Wasser.
+    Im Wasserspiel die Vergangenheit von Bahrain erleben? Im Lost Paradise of Dilmun mit über 45.000 qm ist das möglich. Große Rutschen, sanfte Wasserläufe und architektonische Skulpturen versetzen die Besucher in die Zeit von Bahrains Paradieszeit: der Wüstenoase mit Leben spendendem Wasser.
   section: wasserspass-wassersport
   pages:
     - id: water
@@ -38,7 +38,7 @@
   id: al-dar-island
   highlight: true
   content: >
-    Perfekt für einen Tagetrip ans Meer liegt Al Dar Island nur eine kurze Bootsfahrt von Manama entfernt: Lagunen-Idylle und Wassersport, Spaß für die ganze Familie in der Familyzone, ein BBQ in einer Beach-Hut oder gleich eine Übernachtung im exklusiven Chalet runden das Angebot der Resort-Insel ab.
+    Perfekt für einen Tagestrip ans Meer liegt Al Dar Island nur eine kurze Bootsfahrt von Manama entfernt: Lagunen-Idylle und Wassersport, Spaß für die ganze Familie in der Familyzone, ein BBQ in einer Beach-Hut oder gleich eine Übernachtung im exklusiven Chalet runden das Angebot der Resort-Insel ab.
   section: traumstrande-im-inselstaat
   pages:
     - id: water
@@ -47,7 +47,7 @@
   id: hawar-inseln
   highlight: true
   content: >
-    Das autofreie Hawar-Archipel im Süden von Bahrain lockt mit einem reichhaltigen Angebot an Naturerlebnissen. Erleben Sie majestätische Seekühe, verspielte Delphine und elegante Flamingos in ihrem natürlichen Habitat im kristallklaren Wasser des Persischen Golfes.
+    Das autofreie Hawar-Archipel im Süden von Bahrain lockt mit einem reichhaltigen Angebot an Naturerlebnissen. Erleben Sie majestätische Seekühe, verspielte Delphine und elegante Flamingos in ihrem natürlichen Habitat im kristallklaren Wasser des Arabischen Golfes.
   section: traumstrande-im-inselstaat
   pages:
     - id: water
@@ -145,7 +145,7 @@
   id: nationaltheater-bahrain
   highlight: true
   content: >
-    Genau 1001 Personen finden im Nationaltheater Bahrain Platz – eine Hommage an die Märchen aus Tausendundeiner Nacht. Stars und Künstler aus der ganzen Welt besetzen hier erstklassige Theater- Ballett- und Opernaufführungen.
+    Genau 1001 Personen finden im Nationaltheater Bahrain Platz – eine Hommage an die Märchen aus Tausendundeiner Nacht. Stars und Künstler aus der ganzen Welt besetzen hier erstklassige Theater-, Ballett- und Opernaufführungen.
   section: kulturelle-entdeckungen
   pages:
     - id: culture
@@ -156,13 +156,13 @@
 #  SHOPPING
 #########################################################
 
-# section: traditionelle-souks
+# section: traditionelle-souqs
 - title: Manama Souq
   id: manama-souq
   highlight: true
   content: >
-    Ein Labyrinth enger Gassen erwartet Sie auf dem Manama Souq, dem altem Bazar der Stadt. Verlieren Sie sich an den zahlreichrein Händlerständen, besonders bei Nacht. Von Schmuck über regionale Handwerkskunst bis zu Antiquitäten finden Sie hier das perfekte Souvenir
-  section: traditionelle-souks
+    Ein Labyrinth enger Gassen erwartet Sie auf dem Manama Souq, dem altem Bazar der Stadt. Verlieren Sie sich an den zahlreichrein Händlerständen, besonders bei Nacht. Von Schmuck über regionale Handwerkskunst bis zu Antiquitäten finden Sie hier das perfekte Souvenir.
+  section: traditionelle-souqs
   pages:
     - id: shopping
 
@@ -170,8 +170,8 @@
   id: al-qaisariya-bazar
   highlight: true
   content: >
-    Trubeliges Bazarleben erwartet Sie ebenso auf der Insel Muharraq, besonders im ältestens Teil des Muharraq-Souq. In authentischem Ambiente kann hier die Faszination traditionellen Handelns und Feilschens erlebt werden.
-  section: traditionelle-souks
+    Trubeliges Bazarleben erwartet Sie ebenso auf der Insel Muharraq, besonders im ältestens Teil des Muharraq-Souqs. In authentischem Ambiente kann hier die Faszination traditionellen Handelns und Feilschens erlebt werden.
+  section: traditionelle-souqs
   pages:
     - id: shopping
 
@@ -185,7 +185,7 @@
   pages:
     - id: shopping
 
-- title: Bahrain City Center
+- title: Bahrain City Centre
   id: bahrain-city-center
   highlight: true
   content: >
@@ -218,7 +218,7 @@
   id: machboos
   highlight: true
   content: >
-    Koriander, Minze und Chili sind nur einige der Gewürze, die Machboos seine charakteristischen Geschmack verleihen. Serviert wird dieses Gericht mit Fisch, Huhn oder Fleisch sowie Reis.
+    Koriander, Minze und Chili sind nur einige der Gewürze, die Machboos seinen charakteristischen Geschmack verleihen. Serviert wird dieses Gericht mit Fisch, Huhn oder Fleisch sowie Reis.
   section: landestypische-küche
   pages:
     - id: shopping
@@ -292,7 +292,7 @@
   id: attic
   highlight: true
   content: >
-    Griechische Küche, geschickt inszenierter Retro-Charme und ein großartiger Blick über Manama von der Terrasse, all das finden sie im Restaurant Attic im hippen Stadtteil Adliya.
+    Griechische Küche, geschickt inszenierter Retro-Charme und ein großartiger Blick über Manama von der Terrasse, all das finden Sie im Restaurant Attic im hippen Stadtteil Adliya.
   section: junge-gastroszene
   pages:
     - id: shopping
@@ -310,7 +310,7 @@
   id: meat-co
   highlight: true
   content: >
-    Für perfekt gereifte T-Bone- und Rib-Eye-Steaks vom Angus-Rind empfehlen wir das Meat & co im aufstrebenden Stadtteil Block 338. Nach dem Essen lockt die Zigarren-Lounge und die Dachterrasse mit Blick auf die Skyline.
+    Für perfekt gereifte T-Bone- und Rib-Eye-Steaks vom Angus-Rind empfehlen wir das Meat & Co im aufstrebenden Stadtteil Block 338. Nach dem Essen locken die Zigarren-Lounge und die Dachterrasse mit Blick auf die Skyline.
   section: junge-gastroszene
   pages:
     - id: shopping
@@ -328,16 +328,16 @@
   id: orangerie
   highlight: true
   content: >
-    Wie in einem Englischen Garten fühlt man sich in der Orangerie, einer Hommage an die Europäische Tee-Tradition zwischn dem 17. und 19. Jahrhunderts. Gönnen Sie sich eine süße Kreation der hauseigenen Patisserie.
+    Wie in einem Englischen Garten fühlt man sich in der Orangerie, einer Hommage an die Europäische Tee-Tradition zwischen dem 17. und 19. Jahrhundert. Gönnen Sie sich eine süße Kreation der hauseigenen Patisserie.
   section: junge-gastroszene
   pages:
     - id: shopping
 
-- title: Cantina Khalo & Khalo Club im Ritz Carlton
+- title: Cantina Kahlo & Kahlo Club im Ritz Carlton
   id: cantina-khalo
   highlight: true
   content: >
-    Lehnen Sie sich zurück: Die Cantino Carlo versorgt Sie mit kreativer mexikanischer Küche, spritzigen Cocktails in von Frida Kahlos Kunstwerken inspiriertem Ambiente.
+    Lehnen Sie sich zurück: Die Cantino Cahlo versorgt Sie mit kreativer mexikanischer Küche, spritzigen Cocktails in von Frida Kahlos Kunstwerken inspiriertem Ambiente.
   section: junge-gastroszene
   pages:
     - id: shopping
@@ -350,38 +350,42 @@
 
 # section: formel-1-bahrain-international-circuit
 
-- title: Title
-  id: title
+- title: Clio Cup Experience
+  id: clio-cup-experience
   highlight: true
+  link: https://www.bahraingp.com/-clio-cup-experience-.html
   content: >
-    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+    Nehmen Sie als Pilot oder Co-Pilot Platz im Rennschalensitz eines reinrassigen 220-PS starken Clio-Tourenwagens mit Überrollkäfig und sequenzieller 6-Gang-Schaltung. Ein Profi im Pacecar gibt Ihnen die Ideallinie vor und Sie rasen 12 Runden über den Bahrain International Circuit.
   section: formel-1-bahrain-international-circuit
   pages:
     - id: festivals
 
-- title: Title
-  id: title
+- title: Land Rover Experience Bahrain
+  id: land-rover-experience-bahrain
+  link: https://www.bahraingp.com/-landroverexperience-.html
   highlight: true
   content: >
-    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+    Mitten in der Wüste von Sakhir wartet ein Motorsporterlebnis der besonderen Art. Testen Sie Ihre Offroad-Fertigkeiten mit leistungsstarken 4x4-Landrovern auf einer Strecke von insgesamt 3.5 km. Über 32 natürliche und künstliche Hindernisse auf Sand und Fels oder im Wasser wollen hier überwunden werden.
   section: formel-1-bahrain-international-circuit
   pages:
     - id: festivals
 
-- title: Title
-  id: title
+- title: Arrive & Drive
+  id: arrive-drive
+  link: https://www.bahraingp.com/-Bahrain-International-Karting-Circuit-.html?lang=en
   highlight: true
   content: >
-    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+    Hier kommt auch die Zukunft des Motorsports auf Touren: Kinder ab 7 Jahren und Erwachsene können sich auf einer der Rennstrecken des Bahrain International Karting Circuit beweisen, wenn Sie – professionell ausgestattet – hinter dem Steuer eines Karts einer persönlichen Bestzeit entgegen fahren.
   section: formel-1-bahrain-international-circuit
   pages:
     - id: festivals
 
-- title: Title
-  id: title
+- title: VIP Tours
+  id: vip-tours
+  link: https://www.bahraingp.com/-tours-.html
   highlight: true
   content: >
-    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+    Gewinnen Sie neue Einblicke in die Motorsport-Szene bei dieser geführten Tour hinter die Kulissen des Bahrain International Circuits und erleben Sie modernste Technologie bei Boxenstops im Media Center, auf der Grand-Prix-Strecke, dem Race Control Tower und dem Sakhir Tower.
   section: formel-1-bahrain-international-circuit
   pages:
     - id: festivals

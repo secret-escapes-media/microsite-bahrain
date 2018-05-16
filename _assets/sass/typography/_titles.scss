@@ -114,11 +114,13 @@
   @include font-smoothing;
 
   font-size: $s5;
-  @include bp($md){
+  @include bp($md){ font-size: $s7; }
+  @include bp($xl){ font-size: $s10; }
+
+  &--lg {
     font-size: $s7;
-  }
-  @include bp($xl){
-    font-size: $s10;
+    @include bp($md){ font-size: $s9; }
+    @include bp($xl){ font-size: $s12; }
   }
 
 }

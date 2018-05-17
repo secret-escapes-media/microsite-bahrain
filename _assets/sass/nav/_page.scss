@@ -42,7 +42,7 @@ $nav-text-color:     $grey-darker;
     bottom: 0;
     z-index: $z-nav-upper;
     width: $page-nav-height-sm;
-    background-image: url("../img/icons/nav-arrow.svg");
+    background-image: url("../img/icons/nav-arrow-wh.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: $page-nav-height-sm auto;
@@ -91,14 +91,12 @@ $nav-text-color:     $grey-darker;
     padding-right: $s2;
     font-family: $font-core;
     font-weight: 400;
-    font-size: 11px;
-    letter-spacing: .25em;
-    text-transform: uppercase;
+    font-size: 13px;
     color: $nav-text-color;
     transition: background-color $transition-time ease;
     white-space: nowrap;
     &.is-current      { background-color: rgba($nav-color,.66); }
-    .no-touch &:hover { background-color: rgba($nav-color,1); }
+    .no-touch &:hover { background-color: rgba($nav-border-color,1); }
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;
@@ -113,5 +111,6 @@ $nav-text-color:     $grey-darker;
     right: 0;
     bottom: auto;
     z-index: $z-nav  ;
+    box-shadow: 0 0 10px rgba($grey-darkest,0.1);
   }
 }

@@ -18,11 +18,11 @@ intro: >
 </div>
 
 <div class="container">
-  <div class="row row--xxl-6-6 row--no-gutters">
+  <div class="row row--xl-6-6 row--no-gutters">
     {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
     {% for page in content-pages %}
       <div class="col">
-        <div class="tile bg-img bg-img--4-3 bg-img--md-16-9 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/banner/{{page.id}}.jpg');">
+        <div class="tile bg-img bg-img--16-9 bg-img--lg-21-9 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/banner/{{page.id}}.jpg');">
           <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
 
           <div class="tile__content">

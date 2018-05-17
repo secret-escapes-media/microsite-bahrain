@@ -209,7 +209,7 @@
   id: qoozi
   highlight: true
   content: >
-    Probieren Sie dieses traditionelle Gericht der arabischen Küche und lassen Sie sich gegrilltes Lamm auf mit allerlei Gewürzen, Ei, braunen Zwiebeln und Nüssen gemischtem Reis auf der Zunge zergehen.
+    Probieren Sie dieses traditionell arabische Gericht und lassen Sie sich gegrilltes Lamm auf mit allerlei Gewürzen sowie Ei, braunen Zwiebeln und Nüssen gemischtem Reis auf der Zunge zergehen.
   section: landestypische-küche
   pages:
     - id: shopping
@@ -227,7 +227,7 @@
   id: muhammar
   highlight: true
   content: >
-    Diesem süßen Reisgericht aus Bahrain werden Sie nicht widerstehen können: Muhammar wird mit einer cremigen Soße aus Datteln abgerundet und gegrilltem oder paniertem Fisch serviert.
+    Diesem süßen Reisgericht aus Bahrain werden Sie nicht widerstehen können: Muhammar wird mit einer cremigen Soße aus Datteln abgerundet und mit gegrilltem oder paniertem Fisch serviert.
   section: landestypische-küche
   pages:
     - id: shopping
@@ -283,7 +283,7 @@
   id: hazel-rooftop-bar-lounge
   highlight: true
   content: >
-    Von der neueröffneten Rooftop-Bar eröffnet sich ein spektakulärer Blick über die Dächer von Manama. In entspanntem Ambiente werden hier aufregende Signature-Cocktails zu Live-Musik von regionalen Bands serviert.
+    Die neueröffneten Rooftop-Bar bietet Ihnen einen spektakulären Blick über die Dächer von Manama. In entspanntem Ambiente werden hier aufregende Signature-Cocktails zu Live-Musik von regionalen Bands serviert.
   section: junge-gastroszene
   pages:
     - id: shopping
@@ -337,7 +337,7 @@
   id: cantina-khalo
   highlight: true
   content: >
-    Lehnen Sie sich zurück: Die Cantino Kahlo versorgt Sie mit kreativer mexikanischer Küche, spritzigen Cocktails in von Frida Kahlos Kunstwerken inspiriertem Ambiente. 
+    Lehnen Sie sich zurück: Die Cantino Kahlo versorgt Sie mit kreativer mexikanischer Küche, spritzigen Cocktails in von Frida Kahlos Kunstwerken inspiriertem Ambiente.
   section: junge-gastroszene
   pages:
     - id: shopping
@@ -423,7 +423,7 @@
   id: bahrain-light-festival
   highlight: true
   content: >
-    Das Open-Air-Festival findet im November 2018 statt. Spektakuläre Lichtinstallationen internationaler Künster auf höchstem künstlerischen und technischem Niveau werden sich auf der Wasseroberfläche der Bahrain Bay spiegeln und die Besucher verzaubern.
+    Das Open-Air- Festival findet im November 2018 statt. Spektakuläre Lichtinstallationen internationaler Künstler auf höchstem künstlerischem und technischem Niveau werden sich auf der Wasseroberfläche der Bahrain Bay spiegeln und die Besucher verzaubern.
   section: kulturfestivals
   pages:
     - id: festivals

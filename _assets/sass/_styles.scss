@@ -5,6 +5,10 @@
   @include transition();
   overflow: hidden;
   box-shadow: 0 0 0 rgba($grey-darkest,0);
+  margin-bottom: $s2;
+  @include bp($xl){
+    margin-bottom: 0;
+  }
   &:hover {
     box-shadow: 0 0 60px rgba($grey-darkest,0.25);
   }
@@ -23,21 +27,32 @@
   }
   &__footer {
     $footer-height: 80px;
+    $footer-height-sm: 50px;
     @include transition();
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: absolute;
     z-index: $z-content-upper;
-    left: 0;
-    bottom: -$footer-height;
-    height: $footer-height;
+    height: $footer-height-sm;
     width: 100%;
-    background-color: white;
-    border-top: 3px solid $b-blue;
+    background-color: $grey-darker;
+    color: $white;
+    border-bottom: 3px solid $b-blue;
+    border-top: 0;
     text-align: center;
     @include page-padding;
+    @include bp($xl){
+      border-top: 3px solid $b-blue;
+      border-bottom: 0;
+      background-color: $white;
+      color: $grey-darkest;
+      position: absolute;
+      left: 0;
+      bottom: -$footer-height;
+      height: $footer-height;
+    }
   }
   &:hover &__footer {
     bottom: 0;

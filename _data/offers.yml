@@ -3,10 +3,16 @@
 - title: Mövenpick Hotel Bahrain
   id: movenpick-hotel-bahrain
   location: Al Muharraq, Bahrain
-  description: Zwischen persischem Golf und orientalischer Bazaarkultur im Königreich Bahrain – inkl. Frühstück
+  description: "Zwischen persischem Golf und orientalischer Bazaarkultur im Königreich Bahrain – inkl. Frühstück"
+  extra-description: >
+    <ul>
+      <li>Für Genießer: Traditionelle Gerichte wie Machboos oder Muhammar probieren</li>
+      <li>Für Kulturfreunde: Sich in der Kunst des Perlentauchens üben</li>
+      <li>Für Actionfans: Sich auf dem Bahrain International Circuit einmal selbst wie ein Formel 1-Pilot fühlen</li>
+    </ul>
   price: 147
   price-description: pro Zimmer pro Nacht
-  saved: 40
+  saved: 45
   expires: 2018/06/06
-  link: https://www.secretescapes.de/movenpick-bahrain-al-muharraq-bahrain/sale?utm_source=newsletter&utm_medium=deal&utm_campaign=bahrain_DE_May18
+  link: http://bit.ly/2kn299A
 

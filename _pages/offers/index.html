@@ -4,8 +4,21 @@ id: offers
 title: Angebote
 nav: true
 nav-order: 6
+
+banner:
+  title: Bahrain-Deal<br />des Monats
 ---
 
-{% include offer/all-offers.html %}
+<div class="vpad--xxl">
+
+  <div class="text--center">
+    <h3 class="title title--lg title--lines">Erleben Sie selbst die Magie Bahrains</h3>
+  </div>
+
+  <div class="vpad--lg">
+    {% include offer/all-offers.html %}
+  </div>
+
+</div>
 
 {% include page/promo-offers.html %}

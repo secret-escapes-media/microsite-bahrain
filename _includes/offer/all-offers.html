@@ -1,15 +1,13 @@
 {% include offer/variables.html %}
 
-<div class="container vpad--xxl">
-  <div class="row {% if offers-by-saving.size > 1 %}row--xl-6-6 row--gutters-lg{% endif %}">
-    {% for offer in offers-by-saving %}
-      <div class="col">
-        {% if offers-by-saving.size > 1 %}
-          {% include offer/offer.html %}
-        {% else %}
-          {% include offer/offer-lg.html %}
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
+<div class="row {% if offers-by-saving.size > 1 %}row--xl-6-6 row--gutters-lg{% endif %}">
+  {% for offer in offers-by-saving %}
+    <div class="col">
+      {% if offers-by-saving.size > 1 %}
+        {% include offer/offer.html %}
+      {% else %}
+        {% include offer/offer-lg.html %}
+      {% endif %}
+    </div>
+  {% endfor %}
 </div>
